@@ -1,0 +1,166 @@
+@import "_variables.scss";
+
+@mixin textTitle {
+    color: $textTitle-Color;
+    font-weight: $textTitle-Weight;
+    font-size: $textTitle-Size;
+    line-height: $textTitle-LineHeight;
+}
+
+@mixin textTitle-480 {
+    @include textTitle;
+    font-size: $textTitle-Size-480;
+}
+
+@mixin textTitle-320 {
+    @include textTitle;
+    font-size: $textTitle-Size-320;
+}
+
+@mixin textLabelInput {
+    color: $textLabelInput-Color;
+    font-weight: $textLabelInput-Weight;
+    font-size: $textLabelInput-Size;
+    line-height: $textLabelInput-LineHeight;
+}
+
+@mixin textLabelInput-480 {
+    @include textLabelInput;
+    font-size: $textLabelInput-Size-480;
+}
+
+@mixin textLabelCard {
+    color: $textLabelCard-Color;
+    font-weight: $textLabelCard-Weight;
+    font-size: $textLabelCard-Size;
+    line-height: $textLabelCard-LineHeight;
+}
+
+@mixin textLabelCard-480 {
+    @include textLabelCard;
+    font-size: $textLabelCard-Size-480;
+}
+
+@mixin textLabelCard-320 {
+    @include textLabelCard;
+    font-size: $textLabelCard-Size-320;
+}
+
+@mixin textField {
+    color: $textField-Color;
+    font-weight: $textField-Weight;
+    font-size: $textField-Size;
+    line-height: $textField-LineHeight;
+}
+
+@mixin textField-320 {
+    @include textField;
+    font-size: $textField-Size-320;
+}
+
+@mixin textBtn {
+    color: $textBtn-Color;
+    font-weight: $textBtn-Weight;
+    font-size: $textBtn-Size;
+    line-height: $textBtn-LineHeight;
+}
+
+@mixin textBtn-320 {
+    @include textBtn;
+    font-size: $textBtn-Size-320;
+}
+
+@mixin textHiddenBtn {
+    color: $textHiddenBtn-Color;
+    font-weight: $textHiddenBtn-Weight;
+    font-size: $textHiddenBtn-Size;
+    line-height: $textHiddenBtn-LineHeight;
+}
+
+@mixin textInfoBtn {
+    color: $textInfoBtn-Color;
+    font-weight: $textInfoBtn-Weight;
+    font-size: $textInfoBtn-Size;
+    line-height: $textInfoBtn-LineHeight;
+}
+
+@mixin textBlock {
+    color: $textBlock-Color;
+    font-weight: $textBlock-Weight;
+    font-size: $textBlock-Size;
+    line-height: $textBlock-LineHeight;
+}
+
+@mixin textBlock-480 {
+    font-size: $textBlock-Size-480;
+}
+
+@mixin textBlock-320 {
+    font-size: $textBlock-Size-320;
+}
+
+@mixin textHeader {
+    color: $textHeader-Color;
+    font-weight: $textHeader-Weight;
+    font-size: $textHeader-Size;
+    line-height: $textHeader-LineHeight;
+}
+
+@mixin textHeader-480 {
+    @include textHeader;
+    font-size: $textHeader-Size-480;
+}
+
+@mixin textHeader-320 {
+    @include textHeader;
+    font-size: $textHeader-Size-320;
+}
+
+@mixin textInfo {
+    color: $textInfo-Color;
+    font-weight: $textInfo-Weight;
+    font-size: $textInfo-Size;
+    line-height: $textInfo-LineHeight;
+}
+
+@mixin textFooter {
+    color: $textFooter-Color;
+    font-weight: $textFooter-Weight;
+    font-size: $textFooter-Size;
+    line-height: $textFooter-LineHeight;
+}
+
+@mixin textFooter-320 {
+    @include textFooter;
+    font-size: $textFooter-Size-320;
+}
+
+@mixin mq-l {
+    @media (max-width: $size-l){
+        @content;
+    }
+}
+
+@mixin mq-m {
+    @media (max-width: $size-m){
+        @content;
+    }
+}
+
+@mixin mq-sm {
+    @media (max-width: $size-sm){
+        @content;
+    }
+}
+
+@mixin mq-s {
+    @media (max-width: $size-s){
+        @content;
+    }
+}
+
+@mixin mq-xs {
+    @media (max-width: $size-xs){
+        @content;
+    }
+}

@@ -1,0 +1,123 @@
+//Texts
+$text-Family: 'Roboto', sans-serif;
+
+$textTitle-Color: rgba(19, 19, 19, 0.9);
+$textTitle-Weight: 400;
+$textTitle-Size: 32px;
+$textTitle-Size-480: 24px;
+$textTitle-Size-320: 20px;
+$textTitle-LineHeight: 100%;
+
+$textLabelInput-Color: rgba(28, 28, 28, 0.9);
+$textLabelInput-Weight: 300;
+$textLabelInput-Size: 16px;
+$textLabelInput-Size-480: 14px;
+$textLabelInput-LineHeight: 120%;
+
+$textLabelCard-Color: rgba(28, 28, 28, 0.9);
+$textLabelCard-Weight: 400;
+$textLabelCard-Size: 20px;
+$textLabelCard-Size-480: 16px;
+$textLabelCard-Size-320: 15px;
+$textLabelCard-LineHeight: 110%;
+
+$textField-Color: rgba(19, 19, 19, 0.9);
+$textField-Weight: 400;
+$textField-Size: 16px;
+$textField-Size-320: 14px;
+$textField-LineHeight: 120%;
+
+$textBtn-Color: rgba(19, 19, 19, 0.9);
+$textBtn-Weight: 400;
+$textBtn-Size: 18px;
+$textBtn-Size-320: 16px;
+$textBtn-LineHeight: 120%;
+
+$textHiddenBtn-Color: rgba(19, 19, 19, 0.9);
+$textHiddenBtn-Weight: 300;
+$textHiddenBtn-Size: 20px;
+$textHiddenBtn-LineHeight: 120%;
+
+$textInfoBtn-Color: rgba(28, 28, 28, 0.9);
+$textInfoBtn-Weight: 500;
+$textInfoBtn-Size: 20px;
+$textInfoBtn-LineHeight: 130%;
+
+$textBlock-Color: rgba(28, 28, 28, 0.8);
+$textBlock-Weight: 400;
+$textBlock-Size: 18px;
+$textBlock-Size-480: 16px;
+$textBlock-Size-320: 14px;
+$textBlock-LineHeight: 140%;
+
+$textHeader-Color: rgba(28, 28, 28, 0.9);
+$textHeaderAcc-Color: rgba(28, 28, 28, 0.8);
+$textHeader-Weight: 300;
+$textHeader-Size: 16px;
+$textHeader-Size-480: 14px;
+$textHeader-Size-320: 12px;
+$textHeader-LineHeight: 135%;
+
+$textInfo-Color: rgba(19, 19, 19, 0.9);
+$textInfo-Weight: 400;
+$textInfo-Size: 14px;
+$textInfo-LineHeight: 130%;
+
+$textFooter-Color: rgba(79, 79, 79, 0.6);
+$textFooter-Weight: 300;
+$textFooter-Size: 16px;
+$textFooter-Size-320: 14px;
+$textFooter-LineHeight: 130%;
+
+//Colors
+$hover-Color: rgba(246, 246, 246, 1);
+$active-Color: rgba(255, 147, 26, 0.9);
+$success-Color: rgba(104, 205, 134, 0.9);
+$error-Color: rgba(235, 44, 44, 0.9);
+
+$strokeBlock-Color: rgba(130, 130, 130, 0.6);
+$strokePage-Color: rgba(149, 149, 149, 0.4);
+$bgPage-Color: rgb(251, 251, 251);
+$bgWebPage-Color: rgb(242, 242, 242);
+$bgBlock-Color: rgba(244, 244, 244, 1);
+
+//Border
+$block-Border: 1px solid $strokeBlock-Color;
+$btn-Border: 1px solid $strokeBlock-Color;
+$active-Border: 2px solid $active-Color;
+
+//Border-radius
+$block-BorderRadius-s: 5px;
+$block-BorderRadius-m: 10px;
+$block-BorderRadius-l: 20px;
+$btn-BorderRadius: 100px;
+
+//WidthHeight
+$block-Width-l: 1110px;
+$block-Width-m: 730px;
+$block-Width-s: 350px;
+$block-Width-xs: 280px;
+
+$input-Width-m: 260px;
+$input-Width-l: 640px;
+$checkbox-Size: 30px;
+
+$input-Height-s: 35px;
+$input-Height-m: 70px;
+$input-Height-l: 160px;
+
+//Effects
+$btn-Transform: scale(1.01);
+$time-Animation: 300ms;
+$type-Animation: ease;
+$shadow-Filter-s: drop-shadow(0px 2px 16px rgba(243, 226, 197, 0.8));
+$shadow-Filter-m: drop-shadow(0px 2px 24px rgba(243, 220, 179, 0.8));
+$shadow-Filter-l: drop-shadow(0px 2px 30px rgba(237, 214, 173, 0.8));
+
+//MediaQueries
+
+$size-l: 1199px;
+$size-m: 999px;
+$size-sm: 767px;
+$size-s: 479px;
+$size-xs: 319px;
