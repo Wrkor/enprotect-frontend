@@ -18,20 +18,18 @@ const certFilePath = path.join(baseFolder, `${certificateName}.pem`);
 const keyFilePath = path.join(baseFolder, `${certificateName}.key`);
 
 module.exports = {
-    /*devServer: {
-        https: {
-            key: fs.readFileSync(keyFilePath),
-            cert: fs.readFileSync(certFilePath),
-        },
-        proxy: {
-            '^/enprotect': {
-                target: 'https://localhost:7059/',
-                ws: true,
-                changeOrigin: true
-            }
-        },
-        port: 5002
-    },*/
+    devServer: {
+      https: {
+          key: fs.readFileSync(keyFilePath),
+          cert: fs.readFileSync(certFilePath),
+      },
+      proxy: {
+          '^/enprotect': {
+              target: 'https://localhost:7059/'
+          }
+      },
+      port: 5002
+    },
     css: {
         loaderOptions: {
           sass: {

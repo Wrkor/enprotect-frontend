@@ -8,7 +8,7 @@ export const alert = {
                 title: "Уведомление",
                 text: message,
                 type: 'success',
-                duration: 4000,
+                duration: 5000,
                 speed: 100,
             });
         },
@@ -30,7 +30,7 @@ export const alert = {
                 title: "Уведомление",
                 text: "Ошибка: " + error,
                 type: 'error',
-                duration: 4000,
+                duration: 5000,
                 speed: 100,
             });
         },

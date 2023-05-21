@@ -16,7 +16,7 @@ export const globalConstants = {
             not_found: '/:pathMatch(.*)*',
         },
 
-        apiURL: 'https://localhost:5001/api',
+        apiURL: 'https://localhost:7059/api',
 
         ACCESS: {
             OFFENSE: "OFFENSE",
